@@ -1,0 +1,118 @@
+/* 初始化：重置浏览器默认样式 */
+html{overflow-y: scroll;}
+html,body,h1,h2,h3,h4,h5,h6,p,dl,dt,dd,ul,ol,div,li,table,thead,tbody,pre,code,form,fieldset,legend,input,textarea,blockquote,th,td,hr,button,article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section,select{margin: 0;padding: 0;box-sizing: border-box;}
+img{border: 0 none;vertical-align: middle}
+ul,ol,li{list-style: none}
+body,input{-webkit-text-size-adjust:none;line-height:1.5; font:normal 12px Tahoma,Arial,'\5B8B\4F53','Microsoft YaHei',sans-serif;outline:none;}
+a { text-decoration:none; color:#9a9a9a;}
+select,input,a:focus{outline:0;}
+textarea{resize: none;border: 1px solid #e2e2e2;}
+i{display: inline-block;font-style: normal;vertical-align: middle}
+button{background-color: transparent;border: 0;padding: 0;outline: none;cursor: pointer;}
+input[type="text"],
+input[type="password"],
+input[type="date"],
+input[type="datetime"],
+input[type="datetime-local"],
+input[type="email"],
+input[type="month"],
+input[type="number"],
+input[type="time"],
+input[type="url"],
+input[type="week"],
+select{
+    display: inline-block;
+    width: 200px;height: 35px;
+    line-height: 33px;
+    padding: 0 0 0 6px;
+    border: 1px solid #e2e2e2;
+    box-sizing: border-box;
+}
+
+/* 属性便捷class */
+/*
+    字体大小：ft-12;
+    字体font-family：ft-arial;ft-tahoma;
+    字体斜体：ft-italic{font-style: italic}
+    等等
+ */
+/* 字体粗细 */
+.ft-bold{font-weight: bold;}
+.ft-normal{font-weight: normal;}
+/* 字体大小 */
+.ft-12{font-size:12px;}
+.ft-14{font-size:14px;}
+.ft-16{font-size:16px;}
+.ft-18{font-size:18px;}
+.ft-20{font-size:20px;}
+.ft-22{font-size:22px;}
+.ft-24{font-size:24px;}
+.ft-40{font-size:40px;}
+/* 字体family */
+.ft-arial{font-family: Arial;}
+.ft-tahoma{font-family: "Tahoma";}
+.ft-yahei{font-family: "Microsoft YaHei",微软雅黑,"Microsoft JhengHei";}
+.ft-songti{font-family: '\5B8B\4F53';}
+/* 斜体 */
+.ft-italic{font-style: italic;}
+/* 字体颜色样式 */
+.color-black{color: #000;}
+.color-34{color: #343434;}
+.color-blue{color: #3b8fe4;}
+.color-gray-d{color: #6a6a6a;}
+.color-dimgrey{color:#7c7c7c;}
+.color-darkgrey{color:#9a9a9a;}
+.color-gray-s{color: #a3a3a3;}
+.color-lightgrey{color:#B6B6B6;}
+.color-red{color: #ff3c3c;}
+.color-orange{color: #ff6c00;}
+.color-white{color:#fff;}
+/* 背景颜色 */
+.bg-white{background-color: #fff;}
+.bg-black{background-color: #000;}
+.bg-orange{background-color: #ff6c00;}
+.bg-deepgrey{background-color:#393939}
+.bg-darkgrey{background-color:#d6d6d6 }
+.bg-blue{background-color: #0072ff}
+.bg-grey{background-color: #a7a7a7;}
+/* 布局样式 */
+.pull-left{float: left;}
+.pull-right{float: right;}
+.clr{clear: both;}
+.text-center{text-align: center}
+.text-left{text-align: left}
+.text-right{text-align: right}
+.border-box{box-sizing:border-box;}
+.mg-r-5{margin-right: 5px;}
+.mg-l-5{margin-left: 5px;}
+.mg-t-10{margin-top: 10px;}
+.mg-l-10{margin-left: 10px;}
+.mg-r-10{margin-right: 10px;}
+.mg-b-10{margin-bottom: 10px;}
+.mg-t-12{margin-top: 12px;}
+.mg-t-15{margin-top: 15px;}
+.mg-l-15{margin-left: 15px;}
+.mg-r-15{margin-right: 15px;}
+.mg-b-15{margin-bottom: 15px;}
+.mg-t-20{margin-top: 20px;}
+.mg-l-20{margin-left: 20px;}
+.mg-r-20{margin-right: 20px;}
+.mg-b-20{margin-bottom: 20px;}
+.mg-t-30{margin-top: 30px;}
+.mg-l-30{margin-left: 30px;}
+.mg-r-30{margin-right: 30px;}
+.mg-b-30{margin-bottom: 30px;}
+.mg-b-24{margin-bottom:24px;}
+/* 综合效果、布局class */
+/* 块状元素水平居中 */
+.area-center{margin-left: auto;margin-right: auto;}
+
+/*clear float*/
+.clearfix{*zoom: 1;}
+.clearfix:before,.clearfix:after{display: table;line-height: 0;content: "";}
+.clearfix:after{clear: both;}
+.overflow{overflow: hidden}
+
+/* 单行显示文字，超长省略号 */
+.over-ellipsis{overflow: hidden;text-overflow: ellipsis;white-space: nowrap;}
+.overhidden{overflow:hidden}
